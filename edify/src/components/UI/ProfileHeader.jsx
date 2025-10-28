@@ -54,7 +54,7 @@ export default function Header() {
       </div>
     </div>
     {/* DESKTOP ONLY WELCOME BOARD */}
-    <div className="welcome hidden w-[100%] md:w-[79%] bg-white fixed top-0 left-0 md:left-[19%] font-manrope px-5 mx-[1%] py-2 text-font-color md:flex flex-row justify-between items-center z-50">    
+    <div className="welcome hidden h-20 w-[100%] md:w-[79%] bg-white fixed top-0 left-0 md:left-[19%] font-manrope px-5 mx-[1%] py-2 text-font-color md:flex flex-row justify-between items-center z-50">    
       <div>
       <img className='w-[15rem]' src="/university-logo.png" alt="" />
       </div>
@@ -91,13 +91,13 @@ export default function Header() {
       </div>
   {/* NOTIFICATIONS CARD */}
       {notification ?
-        <div ref={notificationRef} className=" font-manrope flex flex-col gap-3 gap px-5 py-5 bg-gray-100 shadow-md w-[350px] absolute top-[11%] right-[8%] rounded-[10px] z-50">
+        <div ref={notificationRef} className=" font-manrope flex flex-col gap-3 gap px-5 py-5 bg-gray-100 shadow-md w-[350px] absolute mt-[6%] right-[8%] rounded-[10px] z-50">
           <p className='text-center text-gray-87 font-montserrat font-medium'>No notifications yet</p>
         </div> : null
       }
   {/* USER PROFILE CARD */}
       {pofile ?
-        <div ref={profileRef} className=" font-manrope flex flex-col gap-3 gap px-5 py-5 bg-gray-100 shadow-md w-[350px] absolute top-[11%] right-[2%] rounded-[10px] z-50">
+        <div ref={profileRef} className=" font-manrope flex flex-col gap-3 gap px-5 py-5 bg-gray-100 shadow-md w-[350px] absolute mt-[6%] right-[2%] rounded-[10px] z-50">
           <span className='flex flex-row gap-5 items-center px-2 py-2 bg-secondary-accent rounded-[10px]'>
             <img className='h-[50px] rounded-full' src={userProfile} alt="userProfile" />
             <span>

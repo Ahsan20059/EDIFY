@@ -24,8 +24,8 @@ function MyProfile() {
              <div className='ml-[12%] md:ml-[20%] mt-[5%]'>
              <ProfileEdit />
             </div>
-            {/* SKILL TIMELINE GRAPH */}
-            <div className='my-[-2%] md:ml-[20%] px-[3%] flex flex-col md:flex-row flex-wrap justify-between gap-8 items-center md:w-[79vw]'>
+            {/* REST OF THE UI*/}
+            <div className='my-[-2%] md:ml-[20%] px-[3%] flex flex-col md:flex-row flex-wrap justify-between gap-8 items-center w-fit md:w-[79vw]'>
             <SkillTimeline />
             <ProjectShowcase />
             <RecentActivities />

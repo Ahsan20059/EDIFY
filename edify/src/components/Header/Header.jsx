@@ -54,7 +54,7 @@ export default function Header() {
       </div>
     </div>
     {/* DESKTOP ONLY WELCOME BOARD */}
-    <div className="welcome hidden w-[100%] md:w-[79%] bg-white fixed top-0 left-0 md:left-[20%] font-manrope px-5 mx-[1%] py-2 text-font-color md:flex flex-row justify-between items-center z-50">    
+    <div className="welcome hidden h-20 w-[100%] md:w-[79%] bg-white fixed top-0 left-0 md:left-[19%] font-manrope px-5 mx-[1%] py-2 text-font-color md:flex flex-row justify-between items-center z-50">    
       <div>
           <h1 className='text-[24px] font-semibold'>Welcome Aditya,</h1>
           <p className='md:block hidden text-gray-87 text-[16px] md:text-[16px] font-medium font-montserrat'>{currentDate}</p>

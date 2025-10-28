@@ -19,7 +19,7 @@ function FacultyLogin() {
                     <input className='h-[54px] w-12/12 bg-[#f0f0f0] border-0 outline-none rounded-[10px] pl-4 pr-20 font-montserrat' type="password" placeholder='Password' />
                     <Link className='text-gray-87 font-montserrat underline underline-offset-2 font-medium' to="/">Forgot Password?</Link>
                     <Link className='bg-accent rounded-[10px] text-white h-[54px] text-center text-[18px] font-manrope font-semibold flex items-center justify-center' to="/faculty-dashboard">Login to Edify</Link>
-                    <Link className=' underline underline-offset-2 font-medium text-[18px]' to="/">Student Login</Link>
+                    <Link className=' underline underline-offset-2 font-medium text-[18px]' to="/login">Student Login</Link>
                 </form>
             </div>
             </div>

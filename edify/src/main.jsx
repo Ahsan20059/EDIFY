@@ -18,7 +18,7 @@ import FacultyClassroom from './facultyComponents/MyClassroom/FacultyClassroom.j
 import FacultyAssignments from './facultyComponents/Assignments/FacultyAssignments.jsx';
 import FacultySettings from './facultyComponents/Settings/FacultySettings.jsx';
 import Layout2 from './Layout2.jsx';
-import FacultyDashboard from './facultyComponents/Dashboard/facultyDashboard.jsx';
+import FacultyDashboard from './facultyComponents/Dashboard/FacultyDashboard.jsx';
 import LandingPage from './Landing.jsx';
 
 
